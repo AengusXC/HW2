@@ -11,7 +11,7 @@ surnames = ['Sugaro', 'Cuppo', 'Creamoff', 'Bru', 'Lipton']
 # in format "Name Surname". At the moment, for some reason, they are
 # printed as "NameSurname" without a space, which is wrong.
 for i in range(len(names)):
-    print(names[i] + surnames[i])
+    print(names[i] +" "+ surnames[i])
 
 
 
@@ -20,3 +20,6 @@ for i in range(len(names)):
 # Commit this within branch 'feature' and then merge to 'master'
 
 # Your code goes here:
+for i in range(len(names)):
+    for j in range(len(surnames)):
+     print(names[i] +" "+ surnames[j])
