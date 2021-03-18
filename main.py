@@ -11,7 +11,7 @@ surnames = ['Sugaro', 'Cuppo', 'Creamoff', 'Bru', 'Lipton']
 # in format "Name Surname". At the moment, for some reason, they are
 # printed as "NameSurname" without a space, which is wrong.
 for i in range(len(names)):
-    print(names[i] + surnames[i])
+    print(names[i] + " " + surnames[i])
 
 
 
